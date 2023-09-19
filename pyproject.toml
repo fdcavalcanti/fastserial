@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastserial"
+requires-python = ">=3.8"
+version = "0.0.1"
+dependencies = [
+    "pyqt6",
+    "pyserial",
+]
+
+[tool.setuptools.packages]
+find = {}
