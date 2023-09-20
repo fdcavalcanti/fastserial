@@ -10,3 +10,6 @@ dependencies = [
     "pyqt6",
     "pyserial",
 ]
+
+[project.scripts]
+fastserial = "fastserial_gui:main.start_gui"
